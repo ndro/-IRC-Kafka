@@ -9,14 +9,9 @@ Ikuti tutorial http://kafka.apache.org/documentation.html#quickstart untuk menja
 
 Untuk Windows, perintah pada command prompt diubah:
 
-  dari : 
-  
-  * $ bin/zookeeper-server-start.sh config/zookeeper.properties
-
-  menjadi : 
-  
-  * $ .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+* dari : $ bin/zookeeper-server-start.sh config/zookeeper.properties
+* menjadi : $ .\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
 
-## Refernce
+## Reference
 https://github.com/bkimminich/apache-kafka-book-examples
