@@ -75,7 +75,7 @@ public class ChatApp {
                     if(command.contains("@")) {
                         String channelname = command.substring(1);
                         KafkaProducer produce = new KafkaProducer();
-                        if(channelGroup.containsKey(input[1])){  
+                        if(channelGroup.containsKey(channelname)){  
                             String message = "";
                             for(int i=1; i<input.length; i++) {
                                 message+=input[i]+" ";
